@@ -1,0 +1,8 @@
+appName: paymentservice
+appImage: gcr.io/google-samples/microservices-demo/paymentservice
+containerPort: 50051
+containerEnvVars:
+- name: PORT
+  value: "50051"
+
+servicePort: 50051
